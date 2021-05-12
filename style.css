@@ -137,17 +137,16 @@ main{
     text-align: center;
 }
 .ditail ul{
-    width: 100%;
     list-style: none;
     display: flex;
     flex-wrap: wrap;
-    margin: 0 auto;
+    justify-content:space-between;
 }
 .ditail li{
-    flex: auto;
     width: 45%;
     font-size: 15px;
     line-height: 2;
+    padding:2%;
 }
 .btn{
     width: 100%;
