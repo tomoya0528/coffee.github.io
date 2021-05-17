@@ -1,4 +1,4 @@
-$(function(){
+// $(function(){
     $('header a').click(function(){
         var id = $(this).attr('href');
         var position = $(id).offset();
@@ -11,4 +11,4 @@ $(function(){
             'scrollTop':0
         },500)
     });
-});
+// });
